@@ -98,7 +98,7 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 
 }
 
@@ -285,6 +285,11 @@ h3 {
 
 }
 
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
 footer {
     font-family: Montserrat;
     font-style: normal;
