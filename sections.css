@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    color: #333;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+h2 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+h3 {
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    /* identical to box height */
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+.material-icons{
+    margin-top: 1%;
+}
+.material-icons.md36 { font-size: 36px; }
+
+.material-icons.orange600 {
+    color: #FB8C00;
+}
+
+.sidebar {
+    width: 216px;
+    height: 367px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar .sidebar-sub-section {
+    display: -webkit-box;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-sub-section .sidebar-sub-text{
+    margin: 0;
+    padding: 0;
+}
+.sidebar-sub-section .t1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    /* Gray 4 */
+    color: #BDBDBD;
+
+    margin-bottom: 0;
+
+
+}
+
+.sidebar-sub-section .t2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* Gray 1 */
+    color: #333333;
+
+    margin-top:0;
+
+}
+
+.ingredients {
+    display: -webkit-box;
+    margin-bottom: 1rem;
+}
+
+.ingredients .checkbox {
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.ingredients .text {
+
+    margin: 0;
+    margin-left: 1rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    /* or 156% */
+
+    /* Gray 1 */
+    color: #333333;
+}
+
+.instructions {
+    display: -webkit-box;
+    margin-bottom: 2rem;
+
+}
+
+.instructions .box {
+    margin-top: 0;
+    width: 36px;
+    height: 36px;
+    background: #F2994A;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.instructions .box .num {
+    color: #FFFFFF;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.instructions .text {
+    margin-top: 0;
+    padding-left: 1rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+
+}
