@@ -8,6 +8,7 @@ body {
     font-family: Montserrat;
     color: #333;
     margin: 0 auto;
+    padding-left: 1rem;
     max-width: 1000px;
     display: grid;
     height: 100vh;
@@ -108,9 +109,6 @@ h3 {
 
 }
 
-.sidebar-sub-section{
-    margin-left
-}
 .sidebar .sidebar-main .sidebar-sub-text {
     margin-left: 1rem;
 }
